@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernardo Dutra Pereira | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/icon.png" type="image/png">
+</head>
+<body>
+    <div class="efeito-tela"></div>
+    <header>
+        <div class="caixasuperior">
+            <div class="parent">
+              <a href="#section_1"><img src="imagens/Home.png"></a>
+              <a href="#section_2"><img src="imagens/About.png"></a>
+              <a href="#section_3"><img src="imagens/Skills.png"></a>
+              <a href="#section_4"><img src="imagens/Projects.png"></a>
+                <a href="#section_5"><img src="imagens/Contact.png"></a>
+                <p>Início</p>
+                <p>Sobre</p>
+                <p>Skills</p>
+                <p>Projetos</p>
+                <p>Contato</p>
+            </div>
+        </div>
+    </header>
+    <section id="section_1">
+        <p class="font_32px">Olá, eu sou</p>
+        <div class="parent2">
+            <div>
+                <div class="profile-frame">
+                    <img src="imagens/minha_foto.png" id="myphoto">
+                </div>
+            </div>
+            <div id="pos_corrigir1">
+                <h1 id="nome">Bernardo Dutra Pereira</h1>
+                <p class="font_32px">Transformo suas ideias de site em realidade.</p>
+            </div>
+        </div>
+    </section>
+    <section id="section_2">
+        <div class="box_name1">
+            <h1>Sobre Mim</h1>
+        </div>
+        <div class="box_content">
+            <p class="box_text">Olá, sou Bernardo Dutra Pereira, tenho 16 anos e estou cursando no colégio COTEMIG, onde estou aprendendo com desenvolvimento Front-End, gerenciamento de Banco de Dados, C#, dentre outros. Atualmente estou na 2ª série do Ensino Médio. Desde criança eu tive paixão com a tecnologia, e hoje em dia eu consigo desenvolver minhas ideias dentro desta área. </p>
+        </div>
+    </section>
+    <section id="section_3">
+        <div class="box_name2">
+            <h1>Minhas Habilidades</h1>
+        </div>
+        <div class="box_content">
+            <p class="box_text">Atualmente, minhas abilidades se baseiam em criação de programas simples de C#, sou bom em gerenciamento de Banco de Dados, sei me lidar com problemas externos de tecnologia e sei o básico do html e do css, além de um pouco js. Também sei fazer designs, no qual coloco em alguns de meus sites e programas de Windows.</p>
+        </div>
+    </section>
+    <div class="box_name3">
+      <h1>Projetos</h1>
+    </div>
+    <section class="projetos-section" id="section_4">
+        <!-- Carrossel Wrapper -->
+        <div class="carrossel-wrapper">
+          <!-- Botão Navegação Esquerda -->
+          <button class="nav-btn btn-prev" id="prevBtn" aria-label="Anterior">&lt;</button>
+          <!-- Trilha dos Cards -->
+          <div class="carrossel-track" id="carrosselTrack">
+            <!-- Card 1 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_1.png" alt="Capa do Projeto 1" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>Tabela Periódica</h3>
+                  <p class="descricao">Simples tabela periódica utilizando grid</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/TabelaPeriodica', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_2.png" alt="Capa do Projeto 2" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>Tabelas e Listas</h3>
+                  <p class="descricao">Feito para entender listas e tabelas, contém coisas aleatórias</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/Tabelas_e_Listas', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+            
+            <!-- Card 3 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_3.png" alt="Capa do Projeto 3" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>"Primeiro Site"</h3>
+                  <p class="descricao">Não realmente o primeiro, mas tem uma estrutura boa.</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/Primeiro_Site', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_4.png" alt="Capa do Projeto 4" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>Rooftop Restaurant</h3>
+                  <p class="descricao">Tentativa de replicar um site feito por IA</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/Rooftop_Restaurant', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+            
+            <!-- Card 5 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_5.png" alt="Capa do Projeto 5" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>Louie</h3>
+                  <p class="descricao">Tentativa de replicar outro site feito por IA, funciona melhor</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/Louie', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+            
+            <!-- Card 6 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_6.png" alt="Capa do Projeto 6" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>MusiPeak</h3>
+                  <p class="descricao">Site com meu próprio design e ideia de negócio.</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/MusiPeak', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+
+            <!-- Card 7 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_7.png" alt="Capa do Projeto 7" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>Landing Page</h3>
+                  <p class="descricao">Landing Page para o MusiPeak</p>
+                  <p class="skills">HTML / CSS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/TabelaPeriodica', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+
+            <!-- Card 8 -->
+            <article class="card-projeto">
+              <div class="capa-projeto">
+                <img src="imagens/card_8.png" alt="Capa do Projeto 8" class="img-capa">
+              </div>
+              <div class="info-projeto">
+                <div class="texto-info">
+                  <h3>Portfólio</h3>
+                  <p class="descricao">Olha, é este site aqui!</p>
+                  <p class="skills">HTML / CSS / JS</p>
+                </div>
+                <button class="btn-ver-projeto" type="button" onclick="window.open('https://github.com/BeDutraGamer/Portfolio', '_blank')">Ver Projeto</button>
+              </div>
+            </article>
+            
+          </div>
+          <button class="nav-btn btn-next" id="nextBtn" aria-label="Próximo">&gt;</button>
+        </div>
+        <div class="github-container">
+          <a href="https://github.com/BeDutraGamer" target="_blank" class="btn-github">
+            <img src="imagens/Github.png" alt="GitHub" class="github-icon">
+            <span>Ver GitHub ↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="section_5">
+        <div class="box_name1 box_contato_title">
+          <h1>Entre em Contato</h1>
+        </div>
+        <div class="contato-wrapper">
+        <div class="box_form_container">
+          <form class="contato-form">
+          <input type="text" placeholder="Seu Nome" required class="input-field">
+          <input type="email" placeholder="Seu Email" required class="input-field">
+          <input type="tel" placeholder="Seu Telefone" class="input-field" id="tel" oninput=mascara_telefone() maxlength="20">
+          <textarea placeholder="Sua Mensagem" rows="6" required class="input-field textarea-field"></textarea>
+          <div class="btn-enviar-container">
+            <button type="submit" class="btn-enviar">Enviar</button>
+          </div>
+          </form>
+        </div>
+          <div class="box_info_container">
+            <h2>Meus Contatos</h2>
+      
+            <ul class="lista-contatos">
+              <li>
+                <img src="imagens/email.png" alt="Email" class="social-icon swap">
+                <span>bernardodutra2009@gmail.com</span>
+              </li>
+              <li>
+                <img src="imagens/Github.png" alt="GitHub" class="social-icon swap">
+                <span><a href="https://github.com/BeDutraGamer" target="_blank">BeDutraGamer</a></span>
+              </li>
+              <li>
+                <img src="imagens/instagram.png" alt="Instagram" class="social-icon swap">
+                <span><a href="https://www.instagram.com/o_bedutra/" target="_blank">@o_bedutra</a></span>
+              </li>
+              <li>
+                <img src="imagens/linkedin.png" alt="LinkedIn" class="social-icon swap">
+                <span><a href="https://www.linkedin.com/in/bernardo-dutra-pereira/" target="_blank">Bernardo Dutra Pereira</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+<footer>
+  <section id="section_copyright">
+    <p id="copyright">© 2026 Bernardo Dutra Pereira</p>
+</section>
+</footer>
+<button id="btn-theme-toggle" class="btn-theme-toggle" aria-label="Alternar Modo Escuro">
+  <img src="imagens/dark-light_mode.png" alt="Modo Escuro" class="theme-icon">
+</button>
+<script src="script.js"></script>
+</body>
+</html>
